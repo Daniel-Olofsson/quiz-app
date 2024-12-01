@@ -3,6 +3,7 @@
 import { useSearchParams } from "next/navigation";
 import Link from "next/link";
 import styles from "../styles/results.module.css";
+import React, { Suspense } from "react";
 
 const Results = () => {
   const searchParams = useSearchParams();
@@ -22,4 +23,10 @@ const Results = () => {
   );
 };
 
-export default Results;
+const SuspendedResults = () => (
+  <Suspense fallback={<div>Loading...</div>}>
+    <Results />
+  </Suspense>
+);
+
+export default SuspendedResults;
