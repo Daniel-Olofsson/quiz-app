@@ -1,0 +1,19 @@
+.resultsContainer {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  align-content: center;
+  align-self: center;
+  margin-top: auto;
+  margin-bottom: auto;
+  color: wheat;
+  background-color: black;
+  padding: 100px;
+  height: 100vh;
+}
+
+.buttonContainer {
+  display: flex;
+  flex-direction: row;
+}

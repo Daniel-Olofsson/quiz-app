@@ -1,0 +1,9 @@
+.navContainer {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  align-content: center;
+  flex-direction: row;
+  color: white;
+  background-color: black;
+}

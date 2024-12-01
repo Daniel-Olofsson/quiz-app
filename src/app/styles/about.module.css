@@ -1,0 +1,19 @@
+.aboutContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.aboutTitle {
+  text-align: center;
+  margin-top: 0;
+}
+
+.aboutContent {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-grow: 1;
+  text-align: center;
+  height: 100vh;
+}
